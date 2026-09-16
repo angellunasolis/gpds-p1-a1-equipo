@@ -1,0 +1,70 @@
+/*
+ * icons.css — Font Awesome SVG local (subset 11 iconos)
+ * Técnica: CSS mask-image — respeta color, hover y transiciones del padre
+ * FA Free 6.7.2 · CC BY 4.0 · https://fontawesome.com/license/free
+ */
+
+/* ── Base ─────────────────────────────────────────────────────── */
+.fas, .fab {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  vertical-align: -0.125em;
+  /* Neutraliza cualquier font-family residual */
+  font-size: inherit;
+}
+
+/* ── Solid (fas) ──────────────────────────────────────────────── */
+.fa-clock {
+  -webkit-mask-image: url("icon/clock.svg");
+  mask-image: url("icon/clock.svg");
+}
+.fa-chevron-left {
+  -webkit-mask-image: url("icon/chevron-left.svg");
+  mask-image: url("icon/chevron-left.svg");
+}
+.fa-chevron-right {
+  -webkit-mask-image: url("icon/chevron-right.svg");
+  mask-image: url("icon/chevron-right.svg");
+}
+.fa-shoe-prints {
+  -webkit-mask-image: url("icon/shoe-prints.svg");
+  mask-image: url("icon/shoe-prints.svg");
+}
+.fa-phone-alt {
+  -webkit-mask-image: url("icon/phone-flip.svg");
+  mask-image: url("icon/phone-flip.svg");
+}
+.fa-map-marker-alt {
+  -webkit-mask-image: url("icon/location-dot.svg");
+  mask-image: url("icon/location-dot.svg");
+}
+.fa-envelope {
+  -webkit-mask-image: url("icon/envelope.svg");
+  mask-image: url("icon/envelope.svg");
+}
+
+/* ── Brands (fab) ─────────────────────────────────────────────── */
+.fa-facebook-f {
+  -webkit-mask-image: url("icon/facebook-f.svg");
+  mask-image: url("icon/facebook-f.svg");
+}
+.fa-instagram {
+  -webkit-mask-image: url("icon/instagram.svg");
+  mask-image: url("icon/instagram.svg");
+}
+.fa-tiktok {
+  -webkit-mask-image: url("icon/tiktok.svg");
+  mask-image: url("icon/tiktok.svg");
+}
+.fa-whatsapp {
+  -webkit-mask-image: url("icon/whatsapp.svg");
+  mask-image: url("icon/whatsapp.svg");
+}

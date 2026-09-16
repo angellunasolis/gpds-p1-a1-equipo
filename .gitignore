@@ -1,0 +1,8 @@
+# Imágenes originales del cliente (no subir al repo)
+img/original/
+
+# Dependencias de Node
+node_modules/
+
+# Configuración local de VS Code
+.vscode/

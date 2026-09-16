@@ -1,0 +1,11 @@
+{
+  "name": "sitioweb-arbeyvaldivia",
+  "version": "1.0.0",
+  "description": "Sitio web del Podólogo Arbey Valdivia",
+  "scripts": {
+    "build:css": "purgecss --config purgecss.config.js"
+  },
+  "devDependencies": {
+    "purgecss": "^8.0.0"
+  }
+}
